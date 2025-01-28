@@ -1,8 +1,7 @@
-#from openai import OpenAI
 import ollama
 import streamlit as st
 
-st.title("ChatGPT-like clone")
+st.title("Streamlit Ollama Local Chatbot")
 
 
 model='llama3.2:latest'
